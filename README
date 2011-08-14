@@ -1,0 +1,10 @@
+3D Path Search Program( simple demo )
+
+	Use OGRE3D as Graphic Render, and use Micropather lib
+as path search behavior.
+
+	The character is Max Payne.
+	The barrier is the boxes that Ogre3d comes with.
+
+	Author: Kjuly ( Kj Yu )
+Author URL: http://kjuly.com

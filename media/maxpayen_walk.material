@@ -1,0 +1,133 @@
+
+material Face
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.67451 0.560784 0.498039 1
+			specular 0.898039 0.898039 0.898039 1 8
+
+			texture_unit
+			{
+				texture MaxPayne_Face.dds -1
+			}
+		}
+
+	}
+
+}
+
+material Pants
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.203922 0.282353 0.317647 1
+			specular 0.898039 0.898039 0.898039 1 8
+
+			texture_unit
+			{
+				texture MaxPayne_Legs_A.dds -1
+			}
+		}
+
+	}
+
+}
+
+material Body
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.862745 0.784314 0.392157 1
+			specular 0.898039 0.898039 0.898039 1 8
+
+			texture_unit
+			{
+				texture MaxPayne_Body_A.dds -1
+			}
+		}
+
+	}
+
+}
+
+material Hand
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.862745 0.784314 0.392157 1
+			specular 0.898039 0.898039 0.898039 1 8
+
+			texture_unit
+			{
+				texture Hand_Max_Payne.dds -1
+			}
+		}
+
+	}
+
+}
+
+material Jacket
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0.392157 0.533333 1
+			specular 0.898039 0.898039 0.898039 1 8
+
+			texture_unit
+			{
+				texture MaxPayne_Body_A.dds -1
+			}
+		}
+
+	}
+
+}
+
+material Eyelash
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.203922 0.282353 0.317647 1
+			specular 0.898039 0.898039 0.898039 1 8
+
+			texture_unit
+			{
+				texture EyeLash_A_Alpha.dds -1
+			}
+		}
+
+	}
+
+}
+
+material Eyes
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.498039 0.898039 1 1
+			specular 0.898039 0.898039 0.898039 1 8
+
+			texture_unit
+			{
+				texture MaxPayne_Face.dds -1
+			}
+		}
+
+	}
+
+}

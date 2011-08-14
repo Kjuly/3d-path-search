@@ -1,0 +1,11 @@
+build/*
+*.[oa]
+*~
+.*.swp
+include/.*.swp
+src/.*.swp
+.DS_Store
+include/.vimrc
+include/tags
+src/.vimrc
+src/tags
